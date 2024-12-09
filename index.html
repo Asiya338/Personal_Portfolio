@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="port1.css">
+    <script src="port1.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+
+<body>
+    <header>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <div class="name">A<i>siya</i> P<i>ortfolio</i></span></div>
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="livedemo.html">Live Demo</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+
+                        <i class="fas fa-times" onclick="closemenu()"></i>
+
+                    </ul>
+                    <i class="fas fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="headertext">
+                    <div class="firstleft">
+                        Hi, My name is <span class="asiya">Asiya</span>
+                        <div>and I am a passionate </div>
+                        <div>
+                            <span id="element" style="color: #ff004f;"></span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+    <!--*************about*****************-->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="aboutcol1">
+                    <img src="./images/women.png" alt="">
+                </div>
+                <div class="aboutcol2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p>I am a passionate and dedicated learner, constantly seeking opportunities to expand my
+                        knowledge
+                        and skills. As a full-stack web developer and Python programmer, I thrive in challenging
+                        environments where I can utilize and enhance my technical abilities.
+                        <br>
+                        I am committed to hard work and innovation.
+                        My goal is to leverage my skills to create
+                        impactful solutions while collaborating with a dynamic team.
+                    </p>
+                    <div class="tabtitles ">
+                        <p class="tablinks activelink" onclick="opentab('skills')">Skills
+                        </p>
+                        <p class="tablinks" onclick="opentab('education')">Education
+                        </p>
+                        <p class="tablinks" onclick="opentab('cert')">Certificates
+                        </p>
+                    </div>
+
+                    <div class="tabcontents activetab" id="skills">
+                        <ul>
+                            <li><span><b>Web Developer</b></span> <br>Full Stack Web Developer and MERN Stack Developer
+                            </li>
+                            <li><span><b>Python Developer</b></span> <br>Python Development with GUI to build User
+                                Interface
+                            </li>
+                            <li><span><b>Programmer</b></span> <br>
+
+                                Enhanced Coding Skills in Problem-Solving</li>
+                        </ul>
+                    </div>
+                    <div class="tabcontents " id="education">
+                        <ul>
+
+                            <li><span><b>B.TECH in Computer and Science Engineering (CGPA:8.42/10)</b></span> <br>I am currently pursuing Engineering in
+                                Computer Science , JNTUH UCEJ , Jagtial.</li>
+                            <li><span><b>Intermediate in MPC (PER :98.8%)</b></span> <br>I have completed my Intermediate in Trinity
+                                Junior College , Karimnagar.</li>
+                            <li><span><b>Secondary Schooling in SSC (GPA:10/10)</b></span> <br>
+                                I have completed my secondary education in Paradise High School , Karimnagar.</li>
+                        </ul>
+                    </div>
+
+                    <div class="tabcontents" id="cert">
+                        <ul>
+
+                            <li><span><b>JavaScript Essentails_2 Certificate </b></span> <br>
+                                JavaScript Essentials 2 - Cisco Networking Academy in collaboration with OpenEDG JS
+                                Institute
+                            </li>
+                            <li><span><b>Python Essentials_2 Certificate</b></span> <br>
+                                Python Essentials 2 - Cisco Networking Academy in collaboration with OpenEDG Python
+                                Institute.
+                            </li>
+                            <li><span><b>TCS iON Young Professional Certificate</b></span> <br>
+                                TCS iON Young Professional career edge program - TCS iON career edge
+
+                            </li>
+
+                            <a href="Certificates.html" class="certify">See Certificates</a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="timeline-container">
+            <h1>My Journey</h1>
+            <div class="timeline">
+                <!-- Timeline Item 1 -->
+                <div class="timeline-item">
+                    <div class="timeline-date">2022</div>
+                    <div class="timeline-content">
+                        <h3>Started Learning HTML , CSS and JavaScript</h3>
+                        <p>This is where it all began. I took my first steps into web development by learning how to
+                            build websites using HTML , CSS and JavaScript along with programming skills.</p>
+                    </div>
+                </div>
+
+                <!-- Timeline Item 2 -->
+                <div class="timeline-item">
+                    <div class="timeline-date">2023</div>
+                    <div class="timeline-content">
+                        <h3>CSS frameworks , Backend Technologies</h3>
+                        <p>In 2023, I dove deep into JavaScript, building interactive web pages and more .Backend
+                            technologies like NodeJS , ExpressJS ..., CSS frameworks like tailwind , bootstrap.</p>
+                    </div>
+                </div>
+
+                <!-- Timeline Item 3 -->
+                <div class="timeline-item">
+                    <div class="timeline-date">2024</div>
+                    <div class="timeline-content">
+                        <h3>Mastered ReactJS , ExpressJS and NodeJS</h3>
+                        <p>This year was focused on mastering ReactJS,ExpressJS creating dynamic web applications with
+                            state
+                            management and reusable components , along with CURD operations in MySQL , MongoDB.</p>
+                    </div>
+                </div>
+
+                <!-- Timeline Item 4 -->
+
+            </div>
+        </div>
+        <div class="skills-container">
+            <h1>My Skills</h1>
+
+            <!-- Skills Grid -->
+            <div class="skills-grid">
+                <!-- Left Column -->
+                <div class="skills-column">
+                    <div class="skill-bar">
+                        <div class="skill-info">
+                            <i class="fab fa-html5"></i>
+                            <span class="skill-title">HTML</span>
+                        </div>
+                        <div class="bar-container">
+                            <div class="bar">
+                                <div class="bar-fill" data-skill-level="80%">
+                                    <span class="percentage">80%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Other 4 skills for the left side -->
+                    <div class="skill-bar">
+                        <div class="skill-info">
+                            <i class="fab fa-css3-alt"></i>
+                            <span class="skill-title">CSS</span>
+                        </div>
+                        <div class="bar-container">
+                            <div class="bar">
+                                <div class="bar-fill" data-skill-level="60%">
+                                    <span class="percentage">60%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill-bar">
+                        <div class="skill-info">
+                            <i class="fab fa-js-square"></i>
+                            <span class="skill-title">JavaScript</span>
+                        </div>
+                        <div class="bar-container">
+                            <div class="bar">
+                                <div class="bar-fill" data-skill-level="65%">
+                                    <span class="percentage">65%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill-bar">
+                        <div class="skill-info">
+                            <i class="fab fa-react"></i>
+                            <span class="skill-title">ReactJS</span>
+                        </div>
+                        <div class="bar-container">
+                            <div class="bar">
+                                <div class="bar-fill" data-skill-level="75%">
+                                    <span class="percentage">75%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill-bar">
+                        <div class="skill-info">
+                            <i class="fab fa-python"></i>
+                            <span class="skill-title">Python</span>
+                        </div>
+                        <div class="bar-container">
+                            <div class="bar">
+                                <div class="bar-fill" data-skill-level="75%">
+                                    <span class="percentage">75%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Column -->
+                <div class="skills-column">
+                    <!-- Remaining 5 skills for the right side -->
+                    <div class="skill-bar">
+                        <div class="skill-info">
+                            <i class="fab fa-node-js"></i>
+                            <span class="skill-title">Node Express</span>
+                        </div>
+                        <div class="bar-container">
+                            <div class="bar">
+                                <div class="bar-fill" data-skill-level="65%">
+                                    <span class="percentage">65%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill-bar">
+                        <div class="skill-info">
+                            <i class="fas fa-database"></i>
+
+                            <span class="skill-title">MySQL</span>
+                        </div>
+                        <div class="bar-container">
+                            <div class="bar">
+                                <div class="bar-fill" data-skill-level="70%">
+                                    <span class="percentage">70%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill-bar">
+                        <div class="skill-info">
+                            <i class="fa-solid fa-server"></i>
+                            <span class="skill-title">MongoDB</span>
+                        </div>
+                        <div class="bar-container">
+                            <div class="bar">
+                                <div class="bar-fill" data-skill-level="55%">
+                                    <span class="percentage">55%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill-bar">
+                        <div class="skill-info">
+                            <i class="fa-solid fa-c"></i>
+                            <span class="skill-title">
+                                <pre>    C</pre>
+                            </span>
+                        </div>
+                        <div class="bar-container">
+                            <div class="bar">
+                                <div class="bar-fill" data-skill-level="65%">
+                                    <span class="percentage">65%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill-bar">
+                        <div class="skill-info">
+                            <i class="fab fa-java"></i>
+                            <span class="skill-title">Java</span>
+                        </div>
+                        <div class="bar-container">
+                            <div class="bar">
+                                <div class="bar-fill" data-skill-level="80%">
+                                    <span class="percentage">80%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    </div>
+
+
+
+    <!--*************Service**************-->
+    <div id="services">
+        <div class="container">
+            <h1 class="subtitle">Services</h1>
+            <br>
+
+            <div class="serviceslist">
+
+                <div class="slist">
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <h2>Full Stack Developer</h2>
+                    <p> I am skilled at both frontend and backend technologies
+
+                        that I can build applications on real-time projects , API-based projects that handle client
+                        requests and server responses..
+
+                    </p>
+                </div>
+                <div class="slist">
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Programmer</h2>
+                    <p>
+                        I am skilled at Problem-Solving , I can put my skills to solve problems optimally using
+                        appropriate data
+                        structures that uses best time complexity and space complexity.
+                    </p>
+                </div>
+                <div class="slist">
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>MERN Stack Developer</h2>
+                    <p>I am skilled at MERN where I can handle frontend with ReactJS
+                        that forms UI and backend with NodeJS , ExpressJS to handle client-server model where data
+                        manipulation using
+                        MongoDB. </p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!--***********prtfolio*********-->
+
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="subtitle">
+                My Work
+            </h1>
+            <div class="worklist">
+                <div class="work">
+                    <img src="./images/techno.png" alt="">
+                    <div class="layer">
+                        <h3>Memories App </h3>
+                        <p>The Memories Project is a full-stack MERN (MongoDB, Express, React, Node.js) application that allows users to create, update, delete, and interact with posts to share cherised moments. Executed a seamless integration of user login systems with tag-based search capabilities, enhancing app navigation,.....</p>
+                        
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./images/programming.png" alt="">
+                    <div class="layer">
+                        <h3>News_Sphere </h3>
+                        <p> a web application that delivers real-time news from News API and weather updates from OpenWeatherMap API resulting in increased user engagement and satisfaction.
+                            Enabled news filtering by top headlines across categories, by country, added search functionality, and enforced options to maintain notes.
+                            ...... </p>
+                        
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./images/webdevelopment.png" alt="">
+                    <div class="layer">
+                        <h3>Personal Portfolio</h3>
+                        <p>Personal Portfolio is a portfolio website that showcases about me , my journey , my skills ,
+                            services that I can provide , my project works, my cerifications, my education , live demo
+                            to
+                            showcase my projects , my contact information , option to download my CV , and a form to
+                            contact me connected to google sheets to store data entered with message.... </p>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+
+    <!--contact..............-->
+
+    <div id="contact">
+        <div class="container">
+
+            <div class="row">
+                <div class="contactleft">
+                    <div class="subtitle">
+                        <h3> Contact Me</h3>
+                        <br>
+                    </div>
+                    <p><i class="fa-solid fa-share-nodes"></i>asiyashaik@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>8980904552</p>
+                    <div class="socialicons">
+                        <a href="https://github.com/Asiya338" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://wa.me/9112345090" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                        <a href="https://www.linkedin.com/in/asiyask/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="RESUME_ASIYA (11).pdf" class="btn" download="RESUMEASIYA.pdf">Download CV</a>
+
+                </div>
+
+                <div class="contactright">
+                    <form name="submit-to-google-sheet">
+
+                        <input type="text" name="name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your email" required>
+                        <textarea name="message" id="" placeholder="your message" rows="6" resize="none"></textarea>
+                        <button type="submit" name="submit" class="btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright @ 2024,made with <i class="fas fa-heart"></i> by Asiya</p>
+        </div>
+    </div>
+    <!--_________typed js____________-->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- Load library from the CDN -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Full Stack Developer', ' Programmer', 'MERN Developer'],
+            typeSpeed: 100,
+        });
+    </script>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwZbbEJEzH9HGLnZdb6SLW59WOiWMuRjjK1WhPNr7uVIXVtUV-OaBxAmkzAu85KDvS96w/exec'
+        const form = document.forms['submit-to-google-sheet']
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "message sent successfully"
+
+                    setTimeout(
+                        () => {
+                            msg.innerHTML = ""
+                        }, 5000
+                    )
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+
+</html>

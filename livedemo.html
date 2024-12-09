@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<link>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>live demo</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+<script src="port1.js" defer></script>
+<link rel="stylesheet" href="port1.css">
+</head>
+
+<body>
+
+    <header>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <div class="name">A<i>siya</i> P<i>ortfolio</i></span></div>
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#livedemo">Live Demo</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+
+                        <a href="index.html"> <i class="fas fa-times" ></i></a>
+
+
+                    </ul>
+                    <i class="fas fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="headertext">
+                    <div class="firstleft">
+                        Hi, My name is <span class="asiya">Asiya</span>
+                        <div>and Iam a passionate </div>
+                        <div>
+                            <span id="element" style="color: #ff004f;"></span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+    <div id="livedemo">
+        <section id="projects">
+            <h2 style="color: white; font-size: 24px; margin-bottom: 10px;">My Projects</h2>
+            <div class="projects-container">
+
+                <div class="project">
+                    <img src="./images/memories.png" alt="" style="width: 75%;"  height="420px">
+          
+                    <br>
+                    <a href="https://memories-mern-dkjr.onrender.com" style="color: azure;" target="_blank">Link to deployed project</a>
+                    <h3>Memories - MERN-based Social Post Application</h3>
+                    <p>The Memories Project is a full-stack MERN (MongoDB, Express, React, Node.js) application that allows users to create, update, delete, and interact with posts. This project is fully responsive and offers a variety of features to create and share memories........
+                    </p>
+                </div>
+                <br>
+                
+                <div class="project">
+                    <img src="./images/news.png" alt="" style="width: 75%;"  height="350px">
+                    <br> <a href="https://news-sphere-frontend.onrender.com" style="color: azure; " target="_blank">Link to deployed project</a>
+
+                    <h3>News Sphere - API driven News App</h3>
+                    <p>News Sphere is a API driven News wesite that fetches data from newsapi.org and displays in
+                        the form of card , with image , source , url to read complete news . It has options
+                        to top-headlines , based on country , sign up , login pages , search bar to search news.......
+                    </p>
+                </div>
+                <br>
+                <div class="project">
+                    <img src="./images/shoppy2.png" alt=""  height="320px"  style="width: 75%;">
+                    <h3>Admin Dashboard using ReactJS</h3>
+                    <p>Admin Dashboard is project that forms a base for User Interface where home page is Ecommerce
+                        site, used
+                        syncfusion UI to creat many react charts like kanban, Bar, Pyramid , StackedLine , calendar
+                        and
+                        display data of orders ,
+                        customers , employess......
+                    </p>
+                </div>
+                <br>
+                <div class="project">
+                    <img src="./images/HMS.png" alt="" height="320px" style="width: 75%;"  >
+                    <h3>Python Hospital Management System</h3>
+                    <p>Hospital Management System is UI using tKinter where patients details can be entered ,
+                        deleted, cleared and can update patients data . It provides options to see prescription data. It
+                        is connected to MySQL
+                        databases to handle patients data. </p>
+                </div>
+                <br>
+                <div class="project">
+                    <iframe src="https://asiya338.github.io/Amazon-clone-project/" frameborder="0"
+                        allowfullscreen></iframe>
+                    <h3>Amazon Clone</h3>
+                    <p>Amazon Clone is a clone of Amazon`s home page. I has image slider to
+                        show different offers . List of options to shop like Men`s ware , Women`s ware , trendy ,
+                        Kitchen Ware ......
+                        It has Amazon Prime Vedio displayed that resembles Amazon`s home page.
+                    </p>
+                </div>
+
+
+            </div>
+        </section>
+        <div class="copyright">
+            <p>copyright @ 2024,made with <i class="fas fa-heart"></i> by Asiya</p>
+        </div>
+
+    </div>
+    <!--_________typed js____________-->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- Load library from the CDN -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Full Stack Developer', ' Programmer', 'MERN Developer'],
+            typeSpeed: 100,
+        });
+    </script>
+
+</body>
+
+</html>

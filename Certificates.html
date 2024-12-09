@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>live demo</title>
+    <script src="port1.js" defer></script>
+<link rel="stylesheet" href="port1.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+
+<body>
+
+    <header>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <div class="name">A<i>siya</i> P<i>ortfolio</i></span></div>
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#livedemo">Live Demo</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+
+                       <a href="index.html"> <i class="fas fa-times" ></i></a>
+
+                    </ul>
+                    <i class="fas fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="headertext">
+                    <div class="firstleft">
+                        Hi, My name is <span class="asiya">Asiya</span>
+                        <div>and Iam a passionate </div>
+                        <div>
+                            <span id="element" style="color: #ff004f;"></span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+    <div id="certificates">
+        <div class="containers">
+
+            <div class="certificate">
+                <img src="./images/JAVASCRIPT2.png" alt="Certificate 1">
+                <h3>JavaScript Essentials_2 Certificate</h3>
+            </div>
+            <div class="certificate">
+                <img src="./images/PYTHON2.png" alt="Certificate 2">
+                <h3>Python Essentials_2 Certificate</h3>
+            </div>
+            <div class="certificate">
+                <img src="./images/TCS.png" alt="Certificate 3">
+                <h3>TCS iON Career Edge - Young Professional</h3>
+            </div>
+            <div class="certificate">
+                <img src="./images/PSOLVING.png" alt="Certificate 4">
+                <h3>Problem Solving HackerRank</h3>
+            </div>
+            <div class="certificate">
+                <img src="./images/JAVA.png" alt="Certificate 5">
+                <h3>Java Basic HackerRank</h3>
+            </div>
+            <div class="certificate">
+                <img src="./images/Cybersecurity.png" alt="Certificate 6">
+                <h3>Introduction to CyberSecurity</h3>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright @ 2024,made with <i class="fas fa-heart"></i> by Asiya</p>
+        </div>
+
+    </div>
+
+    <!--_________typed js____________-->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- Load library from the CDN -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Full Stack Developer', 'Programmer', 'MERN Developer'],
+            typeSpeed: 100,
+        });
+    </script>
+
+</body>
+
+</html>
