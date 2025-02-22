@@ -17,16 +17,11 @@
         <div id="header">
             <div class="container">
                 <nav>
-                    <div class="name">A<i>siya</i> P<i>ortfolio</i></span></div>
+                    <div class="name"><a href="index.html" class="namehref">A<i>siya</i> P<i>ortfolio</i></a></span></div>
                     <ul id="sidemenu">
-                        <li><a href="#header">Home</a></li>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#livedemo">Live Demo</a></li>
-                        <li><a href="#services">Services</a></li>
-                        <li><a href="#portfolio">Portfolio</a></li>
-                        <li><a href="#contact">Contact</a></li>
+                     <li><a href="index.html">Home</a></li>
 
-                       <a href="index.html"> <i class="fas fa-times" ></i></a>
+                        <i class="fas fa-times" onclick="closemenu()"></i>
 
                     </ul>
                     <i class="fas fa-bars" onclick="openmenu()"></i>
@@ -34,7 +29,7 @@
                 <div class="headertext">
                     <div class="firstleft">
                         Hi, My name is <span class="asiya">Asiya</span>
-                        <div>and Iam a passionate </div>
+                        <div>View my Certifications on</div>
                         <div>
                             <span id="element" style="color: #ff004f;"></span>
                         </div>
@@ -49,34 +44,40 @@
         <div class="containers">
 
             <div class="certificate">
-                <img src="./images/JAVASCRIPT2.png" alt="Certificate 1">
+                <img src="./images/JAVASCRIPT2.png" alt="Certificate 1" onclick="openModal(this)">
                 <h3>JavaScript Essentials_2 Certificate</h3>
             </div>
             <div class="certificate">
-                <img src="./images/PYTHON2.png" alt="Certificate 2">
+                <img src="./images/PYTHON2.png" alt="Certificate 2" onclick="openModal(this)">
                 <h3>Python Essentials_2 Certificate</h3>
             </div>
             <div class="certificate">
-                <img src="./images/TCS.png" alt="Certificate 3">
+                <img src="./images/TCS.png" alt="Certificate 3" onclick="openModal(this)">
                 <h3>TCS iON Career Edge - Young Professional</h3>
             </div>
             <div class="certificate">
-                <img src="./images/PSOLVING.png" alt="Certificate 4">
+                <img src="./images/PSOLVING.png" alt="Certificate 4" onclick="openModal(this)">
                 <h3>Problem Solving HackerRank</h3>
             </div>
             <div class="certificate">
-                <img src="./images/JAVA.png" alt="Certificate 5">
+                <img src="./images/JAVA.png" alt="Certificate 5" onclick="openModal(this)">
                 <h3>Java Basic HackerRank</h3>
             </div>
             <div class="certificate">
-                <img src="./images/Cybersecurity.png" alt="Certificate 6">
+                <img src="./images/Cybersecurity.png" alt="Certificate 6" onclick="openModal(this)">
                 <h3>Introduction to CyberSecurity</h3>
             </div>
         </div>
         <div class="copyright">
-            <p>copyright @ 2024,made with <i class="fas fa-heart"></i> by Asiya</p>
+            <p>copyright @ 2023,made with <i class="fas fa-heart"></i> by Asiya</p>
         </div>
 
+    </div>
+     <!--modal for image-->
+    <div id="certificateModal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img class="modal-content" id="modalImg">
+        
     </div>
 
     <!--_________typed js____________-->
@@ -87,7 +88,7 @@
     <!-- Setup and start animation! -->
     <script>
         var typed = new Typed('#element', {
-            strings: ['Full Stack Developer', 'Programmer', 'MERN Developer'],
+            strings: ['JavaScript', 'Cybersecurity', 'Problem Solving' , 'Python ...'],
             typeSpeed: 100,
         });
     </script>
